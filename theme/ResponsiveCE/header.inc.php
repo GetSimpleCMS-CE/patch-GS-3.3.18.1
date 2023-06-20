@@ -35,12 +35,11 @@
                 </a>
 
                 <button class="header-mobile-btn hide-desktop">
-                <img src="<?php get_theme_url(); ?>/images/bar.svg" alt="">
+                    <img src="<?php get_theme_url(); ?>/images/bar.svg" alt="">
                 </button>
 
                 <ul class=" header-nav hide-mobile">
-                <?php get_navigation(); ?>
-                </ul>
+                    <?php get_navigation(); ?>
                 </ul>
 
             </nav>
